@@ -1,0 +1,13 @@
+language: minimal
+sudo: required
+
+services:
+  - docker
+
+script:
+  - if [[ "$TRAVIS_BRANCH" == "master" && "$TRAVIS_PULL_REQUEST" == "false" ]]; then 
+      DOCKER_USER="$DOCKER_USER" DOCKER_PASSWORD="$DOCKER_PASSWORD_SECURE" ./build.sh; 
+    else 
+      DOCKER_USER="" DOCKER_PASSWORD="" ./build.sh; 
+    fi
+    

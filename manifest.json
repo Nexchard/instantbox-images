@@ -1,0 +1,112 @@
+[
+  {
+    "label": "Ubuntu",
+    "value": "ubuntu",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/ubuntu.png",
+    "subList": [
+      {
+        "label": "14.04",
+        "osCode": "nexsre/ubuntu:14.04"
+      },
+      {
+        "label": "16.04",
+        "osCode": "nexsre/ubuntu:16.04"
+      },
+      {
+        "label": "18.04",
+        "osCode": "nexsre/ubuntu:18.04"
+      },
+      {
+        "label": "20.04",
+        "osCode": "nexsre/ubuntu:20.04"
+      },
+      {
+        "label": "latest",
+        "osCode": "nexsre/ubuntu:latest"
+      }
+    ]
+  },
+  {
+    "label": "CentOS",
+    "value": "centos",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/centos.png",
+    "subList": [
+      {
+        "label": "6.10",
+        "osCode": "nexsre/centos:6.10"
+      },
+      {
+        "label": "7",
+        "osCode": "nexsre/centos:7"
+      },
+      {
+        "label": "8",
+        "osCode": "nexsre/centos:8"
+      }
+    ]
+  },
+  {
+    "label": "Arch Linux",
+    "value": "arch",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/arch.png",
+    "subList": [
+      {
+        "label": "base",
+        "osCode": "nexsre/arch:base"
+      }
+    ]
+  },
+  {
+    "label": "Debian",
+    "value": "debian",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/debian.png",
+    "subList": [
+      {
+        "label": "jessie",
+        "osCode": "nexsre/debian:jessie"
+      },
+      {
+        "label": "stretch",
+        "osCode": "nexsre/debian:stretch"
+      },
+      {
+        "label": "buster",
+        "osCode": "nexsre/debian:buster"
+      },
+      {
+        "label": "latest",
+        "osCode": "nexsre/debian:latest"
+      }
+    ]
+  },
+  {
+    "label": "Fedora",
+    "value": "fedora",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/fedora.png",
+    "subList": [
+      {
+        "label": "30",
+        "osCode": "nexsre/fedora:30"
+      },
+      {
+        "label": "31",
+        "osCode": "nexsre/fedora:31"
+      },
+      {
+        "label": "latest",
+        "osCode": "nexsre/fedora:latest"
+      }
+    ]
+  },
+  {
+    "label": "Alpine",
+    "value": "alpine",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/instantbox/instantbox-images/icon/alpine.png",
+    "subList": [
+      {
+        "label": "3.21",
+        "osCode": "nexsre/alpine:3.21"
+      }
+    ]
+  }
+]
